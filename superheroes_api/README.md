@@ -175,9 +175,7 @@ No strict license — just don’t be evil
 FLASK_APP=app.py
 FLASK_ENV=development
 ```
-
 * Use `flask run` instead of `python app.py` if you're using `.flaskenv`.
-
 ---
 
 ```
