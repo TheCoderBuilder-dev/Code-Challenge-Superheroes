@@ -5,7 +5,6 @@ from .config import Config
 from .models import db
 
 migrate = Migrate()
-
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
@@ -13,7 +12,6 @@ def create_app():
     db.init_app(app)
     migrate.init_app(app, db)
 
-    
     from .routes import api
     app.register_blueprint(api)
 
