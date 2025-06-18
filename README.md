@@ -50,7 +50,7 @@ flask run
 ```
 
 Server will run on:
-**`http://localhost:5555`**
+**`http://localhost:5555`** or **`http://localhost:5000`**
 
 ---
 
